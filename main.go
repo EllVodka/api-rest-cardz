@@ -9,11 +9,6 @@ import (
 	"os"
 )
 
-// @title Api-Rest Cardz
-// @version 0.0.1
-// @description Api-Rest pour animer l'application cardz en angular
-
-// @BasePath /
 func main() {
 	fmt.Println("Welcome to api rest")
 	if err := run(); err != nil {
